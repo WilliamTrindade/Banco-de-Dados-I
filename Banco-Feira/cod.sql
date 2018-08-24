@@ -15,20 +15,19 @@ CREATE TABLE PRODUTO
 	
 CREATE TABLE ESTANDE
 	(
-		codest int,
+				codest int,
         nomeest varchar(50),
         aluguelest numeric(12,2),
         codfis int,
         primary key (codest),
         foreign key (codfis) references fiscal(codfis)
     );
-    CREATE TABLE ESTANDE_PRODUTO
+CREATE TABLE ESTANDE_PRODUTO
 	(
-	codest int,
+		codest int,
         codproduto int,
         valor numeric(12,2),
         foreign key(codest) references estande (codest),
         foreign key(codproduto) references produto (codproduto),
         primary key(codest, codproduto)
     );
-    
