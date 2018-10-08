@@ -1,6 +1,4 @@
-#Álgebra Relacional e SQL: junção externa, interseção, diferença, união, divisão, renomear,
-self-join.
-Exercícios:
+Álgebra Relacional e SQL: junção externa, interseção, diferença, união, divisão, renomear, self-join.
 
 Exercícios base cavalo (subqueries)
 
