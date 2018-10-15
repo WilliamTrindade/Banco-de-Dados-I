@@ -11,7 +11,7 @@ Exercícios base cavalo (subqueries)
 4) Listar os nomes dos criadores cujos cavalos nunca disputaram uma prova (Obs. Incluir
 
 criadores sem cavalos).
-
+__________________________________________________________________________________________________________________________________________
 Exercícios base cavalo (agrupamento)
 
 1) Listar os nomes dos países com o número de criadores que pertencem a cada país
