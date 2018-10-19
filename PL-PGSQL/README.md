@@ -1,0 +1,1 @@
+Linguagem Interpretada pelo SGBD
