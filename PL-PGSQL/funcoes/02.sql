@@ -13,4 +13,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-select media1(10, 10);
+CREATE TABLE ALUNO1(codaluno int, nomealuno varchar, nota1 numeric, nota2 numeric ,PRIMARY KEY(codaluno));
+INSERT INTO aluno1 VALUES (1, 'a1', '10.0', '10.0');
+INSERT INTO aluno1 VALUES (2, 'a2', '10.0', '2.0');
+SELECT NOMEALUNO, media1(nota1, nota2) from aluno1;
