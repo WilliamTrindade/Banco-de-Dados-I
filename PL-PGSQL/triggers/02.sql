@@ -13,15 +13,18 @@ insert into funcionario values (2,'f2',1);
 insert into funcionario values (3,'f3',1);
 insert into funcionario values (4,'f4',2);
 insert into funcionario values (5,'f5',2);
+insert into funcionario values (6,'f6',2);
+insert into funcionario values (7,'f6',2);
 
---INSTRUÇÕES--
+insert into funcionario values (8,'f8',2);
+
 CREATE FUNCTION fvernumfuncdepto() returns TRIGGER
 AS $$
 DECLARE VCONTA int;
 BEGIN
     SELECT COUNT(*) INTO VCONTA FROM funcionario
     WHERE coddepto = NEW.coddepto;
-
+	--NAO DEIXA PASSAR DE 4 FUNCIONARIOS--
     IF VCONTA > 4
         THEN RAISE EXCEPTION 'MAIS DE 4 funcionários';
     END IF;
