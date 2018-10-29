@@ -11,6 +11,7 @@ insert into funcionario values (3,'f3',1);
 insert into funcionario values (4,'f4',2);
 insert into funcionario values (5,'f5',2);
 
+--INSTRUÇÕES--
 CREATE FUNCTION fvernumfuncdepto() returns TRIGGER
 AS $$
 DECLARE VCONTA int;
