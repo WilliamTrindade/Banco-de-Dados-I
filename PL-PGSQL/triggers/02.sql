@@ -18,6 +18,7 @@ insert into funcionario values (7,'f6',2);
 
 insert into funcionario values (8,'f8',2);
 
+--FUNÇÃO--
 CREATE FUNCTION fvernumfuncdepto() returns TRIGGER
 AS $$
 DECLARE VCONTA int;
@@ -33,5 +34,6 @@ END;
 $$
 LANGUAGE 'plpgsql';
 
+--GATILHO--
 CREATE TRIGGER tvernumf AFTER UPDATE OR INSERT
 ON funcionario FOR EACH ROW EXECUTE PROCEDURE fvernumfuncdepto();
