@@ -18,6 +18,7 @@ insert into funcionario values (7,'f6',2);
 
 insert into funcionario values (8,'f8',2);
 
+--A FUNÇÃO FUNCIONA COMO TRANSAÇÃO--
 --FUNÇÃO--
 CREATE FUNCTION fvernumfuncdepto() returns TRIGGER
 AS $$
