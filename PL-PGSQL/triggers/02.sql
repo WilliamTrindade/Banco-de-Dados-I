@@ -16,13 +16,13 @@ CREATE FUNCTION fvernumfuncdepto() returns TRIGGER
 AS $$
 DECLARE VCONTA int;
 BEGIN
-SELECT COUNT(*) INTO VCONTA FROM funcionario
-WHERE coddepto = NEW.coddepto;
+    SELECT COUNT(*) INTO VCONTA FROM funcionario
+    WHERE coddepto = NEW.coddepto;
 
-IF VCONTA > 4
-THEN RAISE EXCEPTION 'MAIS DE 4 funcionários';
-END IF;
-RETURN NEW;
+    IF VCONTA > 4
+        THEN RAISE EXCEPTION 'MAIS DE 4 funcionários';
+    END IF;
+    RETURN NEW;
 END;
 $$
 LANGUAGE 'plpgsql';
