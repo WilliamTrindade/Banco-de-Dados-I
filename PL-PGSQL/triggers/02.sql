@@ -1,10 +1,13 @@
 create table departamento (coddepto int, nomdepto char (50),
 primary key (coddepto));
+
 insert into departamento values (1,'d1');
 insert into departamento values (2,'d2');
+
 create table funcionario (codfunc int, nomfunc char(50), coddepto int,
 foreign key (coddepto) references departamento (coddepto),
 primary key (codfunc));
+
 insert into funcionario values (1,'f1',1);
 insert into funcionario values (2,'f2',1);
 insert into funcionario values (3,'f3',1);
