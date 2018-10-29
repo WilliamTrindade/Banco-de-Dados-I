@@ -1,4 +1,4 @@
---entre o brgin e o commit ele executa sem erros--
+--executa automaticamente--
 begin;
 
 UPDATE empregado SET salario = 5000 WHERE codemp = 1;
