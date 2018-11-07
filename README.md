@@ -9,3 +9,7 @@ Arquivos: Windows -> C:\Program Files\PostgreSQL\10\bin
 http://www.sis4.com/brModelo/
 
 http://www.sis4.com/brModelo/download.html
+
+#PL/pgSQL
+
+http://pgdocptbr.sourceforge.net/pg80/plpgsql.html
