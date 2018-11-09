@@ -20,3 +20,7 @@ http://pgdocptbr.sourceforge.net/pg80/plpgsql.html
 ## SQL embutido em C
 
 https://www.postgresql.org/docs/8.0/ecpg.html
+
+## Drivers ODBC
+
+https://www.postgresql.org/ftp/odbc/versions/
