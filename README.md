@@ -1,19 +1,22 @@
 # Banco-de-Dados-I
 Códigos da disciplina de Banco de Dados - Material de Estudo
 
-PostgreSQL
+## PostgreSQL
+
+https://www.postgresql.org/
+
 Arquivos: Windows -> C:\Program Files\PostgreSQL\10\bin
 
-# BrModelo
+## BrModelo
 
 http://www.sis4.com/brModelo/
 
 http://www.sis4.com/brModelo/download.html
 
-# PL/pgSQL
+## PL/pgSQL
 
 http://pgdocptbr.sourceforge.net/pg80/plpgsql.html
 
-# SQL embutido em C
+## SQL embutido em C
 
 https://www.postgresql.org/docs/8.0/ecpg.html
