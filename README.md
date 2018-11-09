@@ -9,8 +9,6 @@ Arquivos: Windows -> C:\Program Files\PostgreSQL\10\bin
 
 ## BrModelo
 
-http://www.sis4.com/brModelo/
-
 http://www.sis4.com/brModelo/download.html
 
 ## PL/pgSQL
