@@ -11,3 +11,9 @@ INSERT INTO TABELA VALUES (4, 4, 4);
 
 --chamar visao--
 SELECT * FROM VISAO1;
+
+-- atualiza na visao --
+INSERT INTO VISAO1 (COD, VAL1) values (11,10);
+
+-- erro valor 2 nao existe na view --
+--INSERT INTO VISAO1 (COD, VAL1, VAL2) values (12,10,100);
