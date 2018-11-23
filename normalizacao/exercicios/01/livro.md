@@ -6,5 +6,5 @@
 (__codLivro__, nomeLivro, __codEditora__, nomeEditora, __codAutor__, nomeAutor)
 #### 2fn
 (__codLivro__, nomeLivro, __codEditora__, nomeEditora)  
-(__codLivro, codAutor)  
+(__codLivro__, codAutor)  
 (__codAutor__, nomeAutor)  
